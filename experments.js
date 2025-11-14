@@ -1,8 +1,27 @@
 let friends =0;
-for (let i= 0; i< 1000; i++)/*for loop have 3 section the first on is declaration and 2 one is the while part(i is < 10 do some thing ) 3 one is increment/decrement of the control variable at the end of each iteration */ {
+for (let i= 0; i< 10; i++) {
     friends++;
 }
 console.log(friends);
+
+
+
+const timesToRepeat = 50;
+const Character = '%'
+
+let answer = "";
+
+for (let i = 0; i < timesToRepeat; i++) {
+    answer = answer + Character;
+}
+
+console.log(answer)
+
+
+const repeatedTimes =200;
+const main = '$'
+
+console.log("".padStart(repeatedTimes,main)); //used to quickly create a repeated character string//
 
 
 
