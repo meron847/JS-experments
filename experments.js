@@ -3,7 +3,7 @@ for (let i= 0; i< 10; i++) {
     friends++;
 }
 console.log(friends);
-
+//this is loop//
 
 
 const timesToRepeat = 50;
@@ -45,6 +45,19 @@ function logOutYourHome(home, state, Country) {
 }
 
 logOutYourHome(myHome,myCountry,myState);
+//this is finction
 
 
+//want to round a number? use Math
+const number = 56.8;
+const roundNumber = Math.round(number);
+console.log(roundNumber)
 
+//call a function
+const dog = {
+    name: "luca",
+    speak() {
+  console.log("woof woof");
+    },
+};
+dog.speak();
